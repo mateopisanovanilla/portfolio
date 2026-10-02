@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #111111;
+}
+/* HEADER - NAVEGACION */
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dddddd;
+    padding: 25px 60px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav a {
+    color: #111111;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #777777;
+}
+/* INICIO*/
+#inicio {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 10%;
+}
+
+#inicio h1 {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+#inicio p:first-of-type {
+    font-size: 24px;
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+#inicio p:last-of-type {
+    font-size: 17px;
+    color: #777777;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+/* SOBRE MI */
+#sobre-mi {
+    background-color: #ffffff;
+    padding: 100px 10%;
+    border-top: 1px solid #dddddd;
+}
+
+#sobre-mi h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+#sobre-mi p {
+    max-width: 750px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555555;
+}
+
+/* PROYECTOS */
+#proyectos {
+    padding: 100px 10%;
+    border-top: 1px solid #dddddd;
+}
+
+#proyectos h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+#proyectos article {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+#proyectos article h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+#proyectos article p {
+    color: #666666;
+    line-height: 1.6;
+}
+/* HABILIDADES */
+#habilidades {
+    background-color: #ffffff;
+    padding: 100px 10%;
+    border-top: 1px solid #dddddd;
+}
+
+#habilidades h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+#habilidades ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+}
+
+#habilidades li {
+    border: 1px solid #cccccc;
+    padding: 12px 20px;
+    font-size: 15px;
+    color: #444444;
+}
+/* CONTACTO */
+#contacto {
+    padding: 100px 10%;
+    border-top: 1px solid #dddddd;
+}
+
+#contacto h2 {
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+
+#contacto p {
+    color: #555555;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+/* FOOTER */
+footer {
+    background-color: #111111;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #aaaaaa;
+}
